@@ -206,16 +206,16 @@ a:hover {
 
 .hero-mark {
   position: absolute;
-  right: -8%;
+  right: -6%;
   top: 50%;
-  width: min(78vw, 720px);
+  width: min(68vw, 640px);
   height: auto;
-  transform: translateY(-52%) scale(1.02);
-  opacity: 0.55;
-  filter: saturate(0.95) contrast(1.05);
+  transform: translateY(-52%);
+  opacity: 0.72;
   animation: mark-drift 22s ease-in-out infinite alternate;
   pointer-events: none;
   user-select: none;
+  will-change: transform;
 }
 
 .hero-veil {
@@ -427,10 +427,10 @@ a:hover {
 
 @keyframes mark-drift {
   from {
-    transform: translateY(-52%) scale(1.02) translate3d(0, 0, 0);
+    transform: translateY(-52%) translate3d(0, 0, 0);
   }
   to {
-    transform: translateY(-48%) scale(1.06) translate3d(-2%, 1.5%, 0);
+    transform: translateY(-48%) translate3d(-1.5%, 1%, 0);
   }
 }
 
@@ -740,11 +740,11 @@ a:hover {
   }
 
   .hero-mark {
-    right: -18%;
+    right: -14%;
     top: 28%;
-    width: min(95vw, 520px);
-    transform: translateY(-30%) scale(1.05);
-    opacity: 0.42;
+    width: min(88vw, 480px);
+    transform: translateY(-30%);
+    opacity: 0.55;
     animation: none;
   }
 
@@ -805,7 +805,7 @@ a:hover {
   }
 
   .hero-mark {
-    transform: translateY(-52%) scale(1.02);
+    transform: translateY(-52%);
   }
 
   .logo:hover .logo-mark {
