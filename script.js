@@ -43,10 +43,10 @@
 
   const SUCCESS_TITLE = "You’re on the list!";
   const SUCCESS_BODY =
-    "Your email is recorded. We’ll notify you as soon as StartingLine opens for families.";
+    "Your email is recorded. We’ll notify you as soon as Anchor opens for early access.";
   const DUPLICATE_TITLE = "You’re already on the list!";
   const DUPLICATE_BODY =
-    "We’ve got your email. We’ll notify you when StartingLine is ready for your family.";
+    "We’ve got your email. We’ll notify you when Anchor is ready.";
 
   function clearSuccessMarkup() {
     feedback.classList.remove("is-success", "is-error");
@@ -118,7 +118,7 @@
     resize();
     window.addEventListener("resize", resize);
 
-    const colors = ["#1a56c4", "#1242a0", "#9ccc33", "#6f9a1c", "#ffffff", "#f4f7fb"];
+    const colors = ["#2563eb", "#3b82f6", "#d4a843", "#0ea5e9", "#eceef1", "#121417"];
     const originX = form.getBoundingClientRect().left + form.offsetWidth / 2;
     const originY = form.getBoundingClientRect().top + 18;
     const count = Math.min(140, Math.floor(width / 8));
