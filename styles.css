@@ -1,4 +1,4 @@
-/* Anchor — charcoal, cobalt, gold (from anchor-web design tokens) */
+/* Anchor: charcoal, cobalt, gold (from anchor-web design tokens) */
 :root {
   --bg: #121417;
   --surface: #1a1d22;
@@ -177,7 +177,7 @@ a:hover {
   font-weight: 650;
 }
 
-/* Hero — full-bleed visual plane */
+/* Hero: full-bleed visual plane */
 .hero {
   position: relative;
   min-height: calc(100svh - var(--header-h));
