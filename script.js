@@ -43,10 +43,10 @@
 
   const SUCCESS_TITLE = "You’re on the list!";
   const SUCCESS_BODY =
-    "Thanks. We’ll email you as soon as Anchor opens for early access.";
+    "Thanks. We’ll email you as soon as Anchored opens for early access.";
   const DUPLICATE_TITLE = "You’re already on the list!";
   const DUPLICATE_BODY =
-    "We’ve already got your email. We’ll let you know when Anchor is ready.";
+    "We’ve already got your email. We’ll let you know when Anchored is ready.";
 
   function clearSuccessMarkup() {
     feedback.classList.remove("is-success", "is-error");
